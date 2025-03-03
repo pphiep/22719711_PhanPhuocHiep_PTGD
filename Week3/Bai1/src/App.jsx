@@ -1,6 +1,6 @@
 
 import './App.css'
-import AppLoad from './conponents'
+import AppLoad from './conponents/AppLoad'
 
 function App() {
 

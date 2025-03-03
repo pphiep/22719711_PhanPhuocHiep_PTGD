@@ -5,12 +5,10 @@ export default function Menu() {
                     <img src="../public/chefify.png" alt
                     ="logo"/>
                 </div>
-                
-                <div className="search-box">
-                    <input type="text" placeholder="Search..."/>
-                    <button>Search</button>
+                <div class="search-box">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Tìm kiếm..." value={'cakescascsa'}/>
                 </div>
-                
                 <nav className="nav">
                     <a href="#">What to cook</a>
                     <a href="#">Recipes</a>
@@ -19,9 +17,11 @@ export default function Menu() {
                     <a href="#">About Us</a>
                 </nav>
                 
-                <button class="recipe-box">Your Recipe Box</button>
+                <button class="recipe-box"><img src="../public/check.png"></img>Your Recipe Box</button>
                 
-                <div class="avatar"></div>
+                <div class="avatar">
+                    <img src="../public/avatar.png"></img>
+                </div>
         </>
     );
 }
